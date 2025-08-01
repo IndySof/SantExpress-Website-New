@@ -205,7 +205,7 @@ export function Contact() {
                     <FormItem>
                       <FormLabel>{t("contact.form.message") || "Message"}</FormLabel>
                       <FormControl>
-                        <Textarea rows={4} {...field} placeholder={t(""} />
+                        <Textarea rows={4} {...field} placeholder={t("") || ""} />
                       </FormControl>
                       <FormMessage />
                     </FormItem>
