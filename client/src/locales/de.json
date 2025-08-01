@@ -1,0 +1,227 @@
+{
+  "nav": {
+    "market": "Der Markt",
+    "actors": "Die Akteure",
+    "services": "Dienstleistungen",
+    "vision": "Unsere Vision", 
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "Medizinischen Transport erleichtern",
+    "titleHighlight": "in Frankreich",
+    "subtitle": "Innovative Lösungen zur Optimierung und Sicherung des Patiententransports, die alle Akteure verbinden.",
+    "description": "Kosten senken, Dauer reduzieren und Verwaltungsverfahren vereinfachen",
+    "cta1": "Unsere Vision",
+    "cta2": "Kontaktieren Sie uns"
+  },
+  "market": {
+    "title": "Der Markt",
+    "description": "Laut einem 2023 veröffentlichten DREES-Bericht belief sich der ambulante Medizintransportverbrauch auf 6 Milliarden Euro",
+    "stats": {
+      "consumption": "Jährlicher Verbrauch",
+      "growth2021": "Erholung nach der Krise",
+      "growth2022": "Anhaltendes Wachstum"
+    },
+    "coverage": "Die Ausgaben werden zu mehr als 90% von der Krankenversicherung übernommen"
+  },
+  "actors": {
+    "title": "Die Akteure",
+    "subtitle": "Alle Fachkräfte, die im medizinischen Transport mobilisiert sind",
+    "transporter": {
+      "title": "Medizinischer Transporter",
+      "items": ["Konventionelle Taxis", "Krankenwagen", "VSL (Leichte Medizinfahrzeuge)"]
+    },
+    "healthcare": {
+      "title": "Gesundheitseinrichtungen",
+      "items": ["Krankenhäuser", "Kliniken", "Pflegeheime"]
+    },
+    "state": {
+      "title": "STAAT - Krankenversicherung - ARS",
+      "items": ["Regulierung", "Finanzierung", "Qualitätskontrolle"]
+    },
+    "patients": {
+      "title": "Patienten",
+      "items": ["Begünstigte", "Begleiter", "Familien"]
+    }
+  },
+  "vision": {
+    "title": "Unsere Vision",
+    "dropdown": {
+      "label": "Abschnitt wählen",
+      "transporters": "Für medizinische Transporter",
+      "healthcare": "Für Gesundheitseinrichtungen"
+    },
+    "transporters": {
+      "subtitle": "Für medizinische Transporter"
+    },
+    "difficulties": {
+      "title": "Die Herausforderungen",
+      "items": [
+        "Rentabilität verbessern",
+        "Komplexe Fahrtenplanung",
+        "10-20% der Leerfahrten reduzieren",
+        "Fahrgemeinschaftspflicht erfüllen (sitzender Transport)",
+        "Bei Panne, Transport für Patient aufrechterhalten",
+        "Bearbeitung von Krankenkassen-Ablehnungen",
+        "Komplexe Verwaltungsverfahren",
+        "CPAM-Anforderungen erfüllen (Konvention & Änderung Nr. 11)"
+      ]
+    },
+    "solution": {
+      "title": "SantExpress-Lösung",
+      "items": [
+        "Schnell auf Transportanfragen reagieren",
+        "Arbeitsbelastung organisieren",
+        "Routen optimieren (integrierte Navigation)",
+        "Fahrgemeinschaftspflicht erfüllen",
+        "Verwaltungsverfahren vereinfachen (Abrechnung & Buchhaltung)",
+        "Inkasso beschleunigen",
+        "Backup-System und automatische Umleitung bei Panne",
+        "Automatisierte Ablehnungsverwaltung und CPAM-Nachfassen"
+      ]
+    },
+    "healthcare": {
+      "subtitle": "Für Gesundheitseinrichtungen",
+      "difficulties": {
+        "title": "Die Herausforderungen",
+        "items": [
+          "Wartezeit der Patienten reduzieren und Auslastung der Einrichtungen erhöhen",
+          "Personalbelastung bei der Transportsuche verringern",
+          "Kosten für medizinischen Transport reduzieren: in 10 Jahren um das 10-fache gestiegen",
+          "Patienten zufriedenstellen",
+          "Gesundheitseinrichtungen entlasten",
+          "Schwierigkeiten beim Finden medizinischer Transporte",
+          "Müssen mehrere Anbieter kontaktieren, bevor sie einen verfügbaren finden",
+          "Schwierigkeiten bei der Terminplanung",
+          "Warten auf Rückfahrt"
+        ]
+      },
+      "solution": {
+        "title": "SantExpress-Lösung",
+        "items": [
+          "Betten schneller freigeben und Auslastung der Einrichtungen erhöhen",
+          "Reservierungsorganisation harmonisieren",
+          "Kosten für medizinischen Transport reduzieren und Betrug verhindern",
+          "Patienten zufriedenstellen",
+          "Budget der Sozialversicherung entlasten",
+          "Smartphone-Anwendung",
+          "Bedürfnisse definieren: sitzend, liegend, Atemhilfe",
+          "App für Pflegekräfte zugänglich",
+          "Verwaltung von Belegen für die Abrechnung"
+        ]
+      }
+    }
+  },
+  "services": {
+    "title": "Das SantExpress-Ökosystem",
+    "subtitle": "Ihre End-to-End-Plattform für medizinischen Transport",
+    "transporter": {
+      "title": "Konventionelles Taxi, VSL & Krankenwagen",
+      "items": [
+        "Schnell auf Transportanfragen reagieren",
+        "Arbeitsbelastung organisieren",
+        "Routen optimieren (integrierte Navigation)",
+        "Fahrzeugrouten verfolgen",
+        "Leerfahrten reduzieren"
+      ]
+    },
+    "healthcare": {
+      "title": "Gesundheitseinrichtungen",
+      "items": [
+        "Betten schneller freigeben",
+        "Belegungsrate erhöhen",
+        "Patienten zufriedenstellen",
+        "Personalarbeitsbelastung reduzieren",
+        "Reservierungsorganisation harmonisieren"
+      ]
+    },
+    "patients": {
+      "title": "Patienten",
+      "items": [
+        "Zentrale mobile App-Anfragen",
+        "Fahrzeugverfolgung",
+        "Verzögerungsmanagement",
+        "Dokumentenübermittlung",
+        "Integrierte Navigation"
+      ]
+    },
+    "platform": {
+      "title": "Vollständige Logistik-Suite",
+      "intelligent": {
+        "title": "Intelligente Verwaltung",
+        "items": [
+          "KI-unterstützte Anfragenverwaltung",
+          "Intelligente Routenplanung",
+          "Optimierte Fahrgemeinschaften"
+        ]
+      },
+      "fleet": {
+        "title": "Flottenverwaltung",
+        "items": [
+          "Echtzeitverfolgung",
+          "Zeitplanoptimierung",
+          "Fahrerverwaltung"
+        ]
+      },
+      "billing": {
+        "title": "Abrechnung & Verwaltung",
+        "items": [
+          "CPAM-Fernübertragung",
+          "PMT-Dokumentenverwaltung",
+          "Zahlungsverfolgung",
+          "Vorbuchhaltung"
+        ]
+      }
+    }
+  },
+  "partners": {
+    "title": "Partner",
+    "subtitle": "Enge Zusammenarbeit mit allen Branchenakteuren",
+    "items": [
+      "Krankenkassen",
+      "Krankenversicherung",
+      "ARS",
+      "Gesundheitseinrichtungen",
+      "Transporter",
+      "Krankenschwestern"
+    ]
+  },
+  "contact": {
+    "title": "Lassen Sie uns über Ihre Bedürfnisse sprechen",
+    "subtitle": "Ob Sie Transporter, Einrichtung oder Patient sind, unser Team ist für Sie da.",
+    "form": {
+      "firstName": "Vorname",
+      "lastName": "Nachname",
+      "email": "E-Mail",
+      "userType": "Sie sind",
+      "userTypePlaceholder": "Wählen Sie Ihr Profil",
+      "userTypes": {
+        "transporter": "Medizinischer Transporter",
+        "healthcare": "Gesundheitseinrichtung",
+        "patient": "Patient",
+        "other": "Sonstiges"
+      },
+      "message": "Nachricht",
+      "privacy": "Ich akzeptiere die Datenschutzrichtlinie",
+      "submit": "Nachricht senden",
+      "success": "Nachricht erfolgreich gesendet!",
+      "error": "Fehler beim Senden der Nachricht"
+    },
+    "info": {
+      "email": "E-Mail",
+      "address": "Adresse"
+    }
+  },
+  "footer": {
+    "description": "Innovative Lösungen zur Optimierung und Sicherung des Patiententransports in Frankreich. Verbindung aller medizinischen Transportakteure.",
+    "services": "Dienstleistungen",
+    "servicesList": [
+      "Medizinischer Transport",
+      "Flottenverwaltung",
+      "CPAM-Abrechnung",
+      "Mobile Anwendung"
+    ],
+    "contact": "Kontakt",
+    "rights": "Alle Rechte vorbehalten."
+  }
+}

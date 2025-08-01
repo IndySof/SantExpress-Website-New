@@ -1,0 +1,700 @@
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SantExpress - Transport Sanitaire Professionnel en France</title>
+    <meta name="description" content="Solutions innovantes pour optimiser et sécuriser le transport des patients en France. Connectez tous les acteurs du transport sanitaire avec SantExpress.">
+    <meta name="keywords" content="transport sanitaire, ambulance, VSL, taxi conventionné, hôpital, clinique, EHPAD, assurance maladie">
+    
+    <!-- Open Graph Tags -->
+    <meta property="og:title" content="SantExpress - Transport Sanitaire Professionnel">
+    <meta property="og:description" content="Solutions innovantes pour optimiser et sécuriser le transport des patients en France">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://santexpress.fr">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "SantExpress",
+        "url": "https://santexpress.fr",
+        "description": "Solutions innovantes pour optimiser et sécuriser le transport des patients",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "535 Route des Lucioles",
+            "addressLocality": "Valbonne",
+            "postalCode": "06560",
+            "addressCountry": "FR"
+        },
+        "email": "contact@santexpress.fr"
+    }
+    </script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+    tailwind.config = {
+        theme: {
+            extend: {
+                colors: {
+                    'medical-blue': '#0066CC',
+                    'medical-green': '#00A651',
+                    'medical-orange': '#FF6B35',
+                    'medical-gray': {
+                        50: '#F8FAFC',
+                        100: '#F1F5F9',
+                        200: '#E2E8F0',
+                        300: '#CBD5E1',
+                        400: '#94A3B8',
+                        500: '#64748B',
+                        600: '#475569',
+                        700: '#334155',
+                        800: '#1E293B',
+                        900: '#0F172A'
+                    }
+                },
+                fontFamily: {
+                    'sans': ['Inter', 'system-ui', 'sans-serif']
+                }
+            }
+        }
+    };
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="font-sans antialiased">
+    <!-- Language Switcher & Navigation -->
+    <nav class="bg-white shadow-sm border-b border-medical-gray-200 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo -->
+                <div class="flex items-center">
+                    <div class="flex-shrink-0">
+                        <h1 class="text-2xl font-bold text-medical-blue">SantExpress</h1>
+                    </div>
+                </div>
+
+                <!-- Language Switcher -->
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <div class="relative" data-implementation="Language switcher component">
+                            <button class="flex items-center text-medical-gray-700 hover:text-medical-blue px-3 py-2 rounded-md text-sm font-medium">
+                                <i class="fas fa-globe mr-2"></i>
+                                <span data-bind="currentLanguage">FR</span>
+                                <i class="fas fa-chevron-down ml-1"></i>
+                            </button>
+                            <!-- Language dropdown would be implemented here -->
+                        </div>
+                        <a href="#services" class="text-medical-gray-700 hover:text-medical-blue px-3 py-2 rounded-md text-sm font-medium">Services</a>
+                        <a href="#vision" class="text-medical-gray-700 hover:text-medical-blue px-3 py-2 rounded-md text-sm font-medium">Notre Vision</a>
+                        <a href="#contact" class="bg-medical-orange hover:bg-orange-600 text-white px-4 py-2 rounded-md text-sm font-medium transition-colors">Contact</a>
+                    </div>
+                </div>
+
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button type="button" class="text-medical-gray-700 hover:text-medical-blue" data-implementation="Mobile menu toggle">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative bg-gradient-to-br from-medical-blue to-blue-800 text-white overflow-hidden">
+        <div class="absolute inset-0 bg-black opacity-20"></div>
+        <!-- Modern medical transport vehicle in action -->
+        <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1582750433449-648ed127bb54?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1920&h=1080');"></div>
+        
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 lg:py-32">
+            <div class="lg:grid lg:grid-cols-2 lg:gap-8 items-center">
+                <div>
+                    <h1 class="text-4xl lg:text-6xl font-bold leading-tight mb-6">
+                        Faciliter le transport sanitaire
+                        <span class="text-medical-orange">en France</span>
+                    </h1>
+                    <p class="text-xl lg:text-2xl mb-8 text-blue-100">
+                        Solutions innovantes pour optimiser et sécuriser le transport des patients, en connectant tous les acteurs.
+                    </p>
+                    <p class="text-lg mb-8 text-blue-200">
+                        En alléger le coût, en réduire la durée et simplifier les formalités administratives
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <a href="#vision" class="bg-medical-orange hover:bg-orange-600 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors text-center">
+                            Notre Vision
+                        </a>
+                        <a href="#contact" class="border-2 border-white text-white hover:bg-white hover:text-medical-blue px-8 py-4 rounded-lg text-lg font-semibold transition-colors text-center">
+                            Contactez-nous
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Market Statistics Section -->
+    <section class="py-16 bg-medical-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl lg:text-4xl font-bold text-medical-gray-900 mb-4">Le marché</h2>
+                <p class="text-lg text-medical-gray-600 max-w-3xl mx-auto">
+                    Selon un rapport publié par la DREES en 2023, la consommation de transports sanitaires en ambulatoire s'est élevée à 6 milliards d'euros
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+                <div class="bg-white rounded-xl p-8 shadow-lg text-center">
+                    <div class="text-4xl font-bold text-medical-blue mb-2" data-counter="6">6</div>
+                    <div class="text-2xl font-semibold text-medical-orange mb-2">milliards €</div>
+                    <p class="text-medical-gray-600">Consommation annuelle</p>
+                </div>
+                <div class="bg-white rounded-xl p-8 shadow-lg text-center">
+                    <div class="text-4xl font-bold text-medical-green mb-2">+17,7%</div>
+                    <div class="text-2xl font-semibold text-medical-orange mb-2">2021</div>
+                    <p class="text-medical-gray-600">Rebond post-crise</p>
+                </div>
+                <div class="bg-white rounded-xl p-8 shadow-lg text-center">
+                    <div class="text-4xl font-bold text-medical-green mb-2">+7,7%</div>
+                    <div class="text-2xl font-semibold text-medical-orange mb-2">2022</div>
+                    <p class="text-medical-gray-600">Croissance continue</p>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-xl p-8 shadow-lg">
+                <div class="text-center mb-8">
+                    <p class="text-lg text-medical-gray-700">
+                        Les dépenses sont prises en charge par l'Assurance Maladie à plus de <strong class="text-medical-blue">90%</strong>
+                    </p>
+                </div>
+                <!-- Healthcare professionals consulting and working together -->
+                <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1200&h=400" alt="Carte du marché du transport sanitaire" class="w-full h-64 object-cover rounded-lg">
+            </div>
+        </div>
+    </section>
+
+    <!-- Actors Section -->
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl lg:text-4xl font-bold text-center text-medical-gray-900 mb-4">Les acteurs</h2>
+            <p class="text-lg text-center text-medical-gray-600 mb-12">Tous les professionnels mobilisés autour du transport sanitaire</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="text-center p-6 bg-medical-gray-50 rounded-xl">
+                    <div class="w-16 h-16 bg-medical-blue rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-ambulance text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-medical-gray-900 mb-3">Transporteur sanitaire</h3>
+                    <ul class="text-medical-gray-600 space-y-1">
+                        <li>• Taxis conventionnés</li>
+                        <li>• Ambulances</li>
+                        <li>• VSL (Véhicules Sanitaires Légers)</li>
+                    </ul>
+                </div>
+
+                <div class="text-center p-6 bg-medical-gray-50 rounded-xl">
+                    <div class="w-16 h-16 bg-medical-green rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-hospital text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-medical-gray-900 mb-3">Établissements de santé</h3>
+                    <ul class="text-medical-gray-600 space-y-1">
+                        <li>• Hôpitaux</li>
+                        <li>• Cliniques</li>
+                        <li>• EPHAD</li>
+                    </ul>
+                </div>
+
+                <div class="text-center p-6 bg-medical-gray-50 rounded-xl">
+                    <div class="w-16 h-16 bg-medical-orange rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-university text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-medical-gray-900 mb-3">ÉTAT - Assurance maladie - ARS</h3>
+                    <ul class="text-medical-gray-600 space-y-1">
+                        <li>• Réglementation</li>
+                        <li>• Financement</li>
+                        <li>• Contrôle qualité</li>
+                    </ul>
+                </div>
+
+                <div class="text-center p-6 bg-medical-gray-50 rounded-xl">
+                    <div class="w-16 h-16 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-user-injured text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-xl font-semibold text-medical-gray-900 mb-3">Les Patients</h3>
+                    <ul class="text-medical-gray-600 space-y-1">
+                        <li>• Bénéficiaires</li>
+                        <li>• Accompagnants</li>
+                        <li>• Familles</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vision Section -->
+    <section id="vision" class="py-16 bg-medical-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl lg:text-4xl font-bold text-center text-medical-gray-900 mb-16">Notre vision</h2>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-16">
+                <!-- Difficulties -->
+                <div>
+                    <h3 class="text-2xl font-bold text-medical-gray-900 mb-8 flex items-center">
+                        <i class="fas fa-exclamation-triangle text-medical-orange mr-3"></i>
+                        Les difficultés
+                    </h3>
+                    <ul class="space-y-4 text-medical-gray-700">
+                        <li class="flex items-start">
+                            <i class="fas fa-circle text-medical-orange text-xs mt-2 mr-3"></i>
+                            <span>Améliorer la rentabilité</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-circle text-medical-orange text-xs mt-2 mr-3"></i>
+                            <span>Planification complexe des courses</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-circle text-medical-orange text-xs mt-2 mr-3"></i>
+                            <span>Réduire les 30 à 40 % des courses qui se font à vide</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-circle text-medical-orange text-xs mt-2 mr-3"></i>
+                            <span>Répondre à l'obligation du partage des courses (transport assis)</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-circle text-medical-orange text-xs mt-2 mr-3"></i>
+                            <span>Démarches administratives complexes</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-circle text-medical-orange text-xs mt-2 mr-3"></i>
+                            <span>Répondre aux exigences de la CPAM (Convention & Avenant n°11)</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Solution -->
+                <div>
+                    <h3 class="text-2xl font-bold text-medical-gray-900 mb-8 flex items-center">
+                        <i class="fas fa-lightbulb text-medical-green mr-3"></i>
+                        Solution SantExpress
+                    </h3>
+                    <ul class="space-y-4 text-medical-gray-700">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-medical-green text-xs mt-2 mr-3"></i>
+                            <span>Répondre rapidement à une demande de transport</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-medical-green text-xs mt-2 mr-3"></i>
+                            <span>Organiser la charge de travail</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-medical-green text-xs mt-2 mr-3"></i>
+                            <span>Optimiser le trajet (navigation intégrée)</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-medical-green text-xs mt-2 mr-3"></i>
+                            <span>Répondre à l'obligation du partage des courses</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-medical-green text-xs mt-2 mr-3"></i>
+                            <span>Simplifier les formalités administratives (Facturation & Comptabilité)</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-medical-green text-xs mt-2 mr-3"></i>
+                            <span>Accélérer les encaissements</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Healthcare professionals using modern technology interface -->
+            <div class="text-center">
+                <img src="https://pixabay.com/get/g6672940a455ec2848bd5d87a9d0fe4913a420a50351a30174c23d45ecd16eb1e17432853b7068b636651f9f145fcfe3ea184badb677ab9ace5590527604e1af6_1280.jpg" alt="Interface moderne de gestion médicale" class="w-full h-96 object-cover rounded-xl shadow-lg">
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Overview -->
+    <section id="services" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl lg:text-4xl font-bold text-medical-gray-900 mb-4">L'éco Système SantExpress</h2>
+                <p class="text-lg text-medical-gray-600">Votre plateforme de bout en bout pour le transport sanitaire</p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-16">
+                <!-- Taxi conventionné, VSL & Ambulances -->
+                <div class="bg-medical-gray-50 rounded-xl p-8">
+                    <div class="text-center mb-6">
+                        <div class="w-16 h-16 bg-medical-blue rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-ambulance text-white text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-medical-gray-900">Taxi conventionné, VSL & Ambulances</h3>
+                    </div>
+                    <ul class="space-y-3 text-medical-gray-700">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-medical-green text-sm mt-1 mr-3"></i>
+                            <span>Répondre rapidement à une demande de transport</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-medical-green text-sm mt-1 mr-3"></i>
+                            <span>Organiser la charge de travail</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-medical-green text-sm mt-1 mr-3"></i>
+                            <span>Optimiser le trajet (navigation intégrée)</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-medical-green text-sm mt-1 mr-3"></i>
+                            <span>Suivre le trajet des véhicules</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-medical-green text-sm mt-1 mr-3"></i>
+                            <span>Réduire les trajets à vide</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Établissements de santé -->
+                <div class="bg-medical-gray-50 rounded-xl p-8">
+                    <div class="text-center mb-6">
+                        <div class="w-16 h-16 bg-medical-green rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-hospital text-white text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-medical-gray-900">Établissements de santé</h3>
+                    </div>
+                    <ul class="space-y-3 text-medical-gray-700">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-medical-green text-sm mt-1 mr-3"></i>
+                            <span>Libérer plus rapidement les lits</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-medical-green text-sm mt-1 mr-3"></i>
+                            <span>Augmenter le taux d'occupation</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-medical-green text-sm mt-1 mr-3"></i>
+                            <span>Satisfaire les patients</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-medical-green text-sm mt-1 mr-3"></i>
+                            <span>Réduire la charge de travail du personnel</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-medical-green text-sm mt-1 mr-3"></i>
+                            <span>Harmoniser l'organisation de la réservation</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Patients -->
+                <div class="bg-medical-gray-50 rounded-xl p-8">
+                    <div class="text-center mb-6">
+                        <div class="w-16 h-16 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <i class="fas fa-user-injured text-white text-2xl"></i>
+                        </div>
+                        <h3 class="text-xl font-bold text-medical-gray-900">Patients</h3>
+                    </div>
+                    <ul class="space-y-3 text-medical-gray-700">
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-medical-green text-sm mt-1 mr-3"></i>
+                            <span>Application Mobile demandes centralisées</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-medical-green text-sm mt-1 mr-3"></i>
+                            <span>Fiche complète</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-medical-green text-sm mt-1 mr-3"></i>
+                            <span>Gestion des retards</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-medical-green text-sm mt-1 mr-3"></i>
+                            <span>Envoi de pièces justificatives</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check text-medical-green text-sm mt-1 mr-3"></i>
+                            <span>Navigation intégrée</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Suite Logistique complète -->
+            <div class="bg-gradient-to-br from-medical-blue to-blue-800 rounded-xl p-8 text-white">
+                <h3 class="text-2xl font-bold mb-8 text-center">Une Suite Logistique complète</h3>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <div>
+                        <h4 class="font-semibold mb-4 flex items-center">
+                            <i class="fas fa-robot text-medical-orange mr-2"></i>
+                            Gestion intelligente
+                        </h4>
+                        <ul class="space-y-2 text-blue-100">
+                            <li>• Gestion des demandes assistée par IA</li>
+                            <li>• Planification intelligente des trajets</li>
+                            <li>• Partage de trajets optimisé</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold mb-4 flex items-center">
+                            <i class="fas fa-truck text-medical-orange mr-2"></i>
+                            Gestion de Flottes
+                        </h4>
+                        <ul class="space-y-2 text-blue-100">
+                            <li>• Suivi temps réel</li>
+                            <li>• Optimisation des plannings</li>
+                            <li>• Gestion des chauffeurs</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="font-semibold mb-4 flex items-center">
+                            <i class="fas fa-file-invoice text-medical-orange mr-2"></i>
+                            Facturation & Administration
+                        </h4>
+                        <ul class="space-y-2 text-blue-100">
+                            <li>• Télétransmission CPAM</li>
+                            <li>• Gestion documents PMT</li>
+                            <li>• Suivi des paiements</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section class="py-16 bg-medical-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <h2 class="text-3xl font-bold text-center text-medical-gray-900 mb-4">Partenaires</h2>
+            <p class="text-lg text-center text-medical-gray-600 mb-12">Collaboration étroite avec tous les acteurs du secteur</p>
+            
+            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-medical-blue rounded-full flex items-center justify-center mx-auto mb-3">
+                        <i class="fas fa-shield-alt text-white"></i>
+                    </div>
+                    <p class="font-medium text-medical-gray-900">Mutuelles</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-medical-green rounded-full flex items-center justify-center mx-auto mb-3">
+                        <i class="fas fa-heart text-white"></i>
+                    </div>
+                    <p class="font-medium text-medical-gray-900">Assurance maladie</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-medical-orange rounded-full flex items-center justify-center mx-auto mb-3">
+                        <i class="fas fa-university text-white"></i>
+                    </div>
+                    <p class="font-medium text-medical-gray-900">ARS</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-purple-600 rounded-full flex items-center justify-center mx-auto mb-3">
+                        <i class="fas fa-hospital text-white"></i>
+                    </div>
+                    <p class="font-medium text-medical-gray-900">Établissements</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-indigo-600 rounded-full flex items-center justify-center mx-auto mb-3">
+                        <i class="fas fa-ambulance text-white"></i>
+                    </div>
+                    <p class="font-medium text-medical-gray-900">Transporteurs</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-teal-600 rounded-full flex items-center justify-center mx-auto mb-3">
+                        <i class="fas fa-user-nurse text-white"></i>
+                    </div>
+                    <p class="font-medium text-medical-gray-900">Infirmiers/ères</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl lg:text-4xl font-bold text-medical-gray-900 mb-4">Discutons de vos besoins</h2>
+                <p class="text-lg text-medical-gray-600">Que vous soyez transporteur, établissement ou patient, notre équipe est là pour vous.</p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <!-- Contact Information -->
+                <div>
+                    <!-- Patient care professional providing assistance -->
+                    <img src="https://images.unsplash.com/photo-1581056771107-24ca5f033842?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=800&h=600" alt="Équipe SantExpress" class="w-full h-64 object-cover rounded-xl mb-8">
+                    
+                    <div class="space-y-6">
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 bg-medical-blue rounded-full flex items-center justify-center mr-4">
+                                <i class="fas fa-envelope text-white"></i>
+                            </div>
+                            <div>
+                                <p class="font-semibold text-medical-gray-900">Email</p>
+                                <p class="text-medical-gray-600">contact@santexpress.fr</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-center">
+                            <div class="w-12 h-12 bg-medical-green rounded-full flex items-center justify-center mr-4">
+                                <i class="fas fa-map-marker-alt text-white"></i>
+                            </div>
+                            <div>
+                                <p class="font-semibold text-medical-gray-900">Adresse</p>
+                                <p class="text-medical-gray-600">535 Route des Lucioles, Valbonne (06560)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="bg-medical-gray-50 rounded-xl p-8">
+                    <form class="space-y-6" data-implementation="Contact form with validation">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <label for="firstName" class="block text-sm font-medium text-medical-gray-700 mb-2">Prénom</label>
+                                <input type="text" id="firstName" name="firstName" class="w-full px-4 py-3 border border-medical-gray-300 rounded-lg focus:ring-2 focus:ring-medical-blue focus:border-transparent" required>
+                            </div>
+                            <div>
+                                <label for="lastName" class="block text-sm font-medium text-medical-gray-700 mb-2">Nom</label>
+                                <input type="text" id="lastName" name="lastName" class="w-full px-4 py-3 border border-medical-gray-300 rounded-lg focus:ring-2 focus:ring-medical-blue focus:border-transparent" required>
+                            </div>
+                        </div>
+
+                        <div>
+                            <label for="email" class="block text-sm font-medium text-medical-gray-700 mb-2">Email</label>
+                            <input type="email" id="email" name="email" class="w-full px-4 py-3 border border-medical-gray-300 rounded-lg focus:ring-2 focus:ring-medical-blue focus:border-transparent" required>
+                        </div>
+
+                        <div>
+                            <label for="userType" class="block text-sm font-medium text-medical-gray-700 mb-2">Vous êtes</label>
+                            <select id="userType" name="userType" class="w-full px-4 py-3 border border-medical-gray-300 rounded-lg focus:ring-2 focus:ring-medical-blue focus:border-transparent" required>
+                                <option value="">Sélectionnez votre profil</option>
+                                <option value="transporter">Transporteur sanitaire</option>
+                                <option value="healthcare">Établissement de santé</option>
+                                <option value="patient">Patient</option>
+                                <option value="other">Autre</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label for="message" class="block text-sm font-medium text-medical-gray-700 mb-2">Message</label>
+                            <textarea id="message" name="message" rows="4" class="w-full px-4 py-3 border border-medical-gray-300 rounded-lg focus:ring-2 focus:ring-medical-blue focus:border-transparent" required></textarea>
+                        </div>
+
+                        <div class="flex items-start">
+                            <input type="checkbox" id="privacy" name="privacy" class="mt-1 mr-3" required>
+                            <label for="privacy" class="text-sm text-medical-gray-600">
+                                J'accepte la politique de confidentialité
+                            </label>
+                        </div>
+
+                        <button type="submit" class="w-full bg-medical-orange hover:bg-orange-600 text-white font-semibold py-3 px-6 rounded-lg transition-colors">
+                            Envoyer le message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-medical-gray-900 text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="col-span-1 md:col-span-2">
+                    <h3 class="text-2xl font-bold text-medical-orange mb-4">SantExpress</h3>
+                    <p class="text-medical-gray-300 mb-4">
+                        Solutions innovantes pour optimiser et sécuriser le transport des patients en France. 
+                        Connectons tous les acteurs du transport sanitaire.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-medical-gray-400 hover:text-medical-orange">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="text-medical-gray-400 hover:text-medical-orange">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="text-medical-gray-400 hover:text-medical-orange">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div>
+                    <h4 class="font-semibold mb-4">Services</h4>
+                    <ul class="space-y-2 text-medical-gray-300">
+                        <li><a href="#" class="hover:text-medical-orange">Transport sanitaire</a></li>
+                        <li><a href="#" class="hover:text-medical-orange">Gestion de flotte</a></li>
+                        <li><a href="#" class="hover:text-medical-orange">Facturation CPAM</a></li>
+                        <li><a href="#" class="hover:text-medical-orange">Application mobile</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-semibold mb-4">Contact</h4>
+                    <ul class="space-y-2 text-medical-gray-300">
+                        <li>contact@santexpress.fr</li>
+                        <li>535 Route des Lucioles</li>
+                        <li>Valbonne (06560)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-medical-gray-700 mt-8 pt-8 text-center text-medical-gray-400">
+                <p>&copy; 2024 SantExpress. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+    (function() {
+        // TODO: Implement multilingual functionality
+        // TODO: Implement form validation and submission
+        // TODO: Implement animated counters for statistics
+        // TODO: Implement mobile menu toggle
+        // TODO: Implement language switcher functionality
+        
+        // Simple mobile menu toggle placeholder
+        document.addEventListener('DOMContentLoaded', function() {
+            // Smooth scrolling for anchor links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                });
+            });
+
+            // Animated counter effect for statistics
+            const observerOptions = {
+                threshold: 0.1,
+                rootMargin: '0px 0px -50px 0px'
+            };
+
+            const observer = new IntersectionObserver(function(entries) {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        const counter = entry.target.querySelector('[data-counter]');
+                        if (counter && !counter.classList.contains('counted')) {
+                            counter.classList.add('counted');
+                            // TODO: Implement actual counter animation
+                        }
+                    }
+                });
+            }, observerOptions);
+
+            // Observe statistics section
+            const statsSection = document.querySelector('.grid.grid-cols-1.md\\:grid-cols-3.gap-8.mb-12');
+            if (statsSection) {
+                observer.observe(statsSection);
+            }
+        });
+    })();
+    </script>
+</body>
+</html>

@@ -1,0 +1,227 @@
+{
+  "nav": {
+    "market": "Il Mercato",
+    "actors": "Gli Attori",
+    "services": "Servizi",
+    "vision": "La Nostra Visione",
+    "contact": "Contatto"
+  },
+  "hero": {
+    "title": "Facilitare il trasporto sanitario",
+    "titleHighlight": "in Francia",
+    "subtitle": "Soluzioni innovative per ottimizzare e rendere sicuro il trasporto dei pazienti, collegando tutti gli attori.",
+    "description": "Ridurre i costi, diminuire la durata e semplificare le procedure amministrative",
+    "cta1": "La Nostra Visione",
+    "cta2": "Contattaci"
+  },
+  "market": {
+    "title": "Il Mercato",
+    "description": "Secondo un rapporto pubblicato da DREES nel 2023, il consumo di trasporto sanitario ambulatoriale ammontava a 6 miliardi di euro",
+    "stats": {
+      "consumption": "Consumo annuale",
+      "growth2021": "Rimbalzo post-crisi",
+      "growth2022": "Crescita continua"
+    },
+    "coverage": "Le spese sono coperte dall'Assicurazione Sanitaria per oltre il 90%"
+  },
+  "actors": {
+    "title": "Gli Attori",
+    "subtitle": "Tutti i professionisti mobilitati intorno al trasporto sanitario",
+    "transporter": {
+      "title": "Trasportatore Sanitario",
+      "items": ["Taxi convenzionati", "Ambulanze", "VSL (Veicoli Sanitari Leggeri)"]
+    },
+    "healthcare": {
+      "title": "Strutture Sanitarie",
+      "items": ["Ospedali", "Cliniche", "Case di cura"]
+    },
+    "state": {
+      "title": "STATO - Assicurazione Sanitaria - ARS",
+      "items": ["Regolamentazione", "Finanziamento", "Controllo qualità"]
+    },
+    "patients": {
+      "title": "Pazienti",
+      "items": ["Beneficiari", "Accompagnatori", "Famiglie"]
+    }
+  },
+  "vision": {
+    "title": "La Nostra Visione",
+    "dropdown": {
+      "label": "Scegli una sezione",
+      "transporters": "Per i trasportatori sanitari",
+      "healthcare": "Per le strutture sanitarie"
+    },
+    "transporters": {
+      "subtitle": "Per i trasportatori sanitari"
+    },
+    "difficulties": {
+      "title": "Le Sfide",
+      "items": [
+        "Migliorare la redditività",
+        "Pianificazione complessa dei viaggi",
+        "Ridurre il 10-20% dei viaggi a vuoto",
+        "Soddisfare gli obblighi di condivisione (trasporto seduto)",
+        "In caso di guasto, mantenere il trasporto per il paziente",
+        "Trattamento dei Rifiuti delle Casse",
+        "Procedure amministrative complesse",
+        "Soddisfare i requisiti CPAM (Convenzione & Emendamento n°11)"
+      ]
+    },
+    "solution": {
+      "title": "Soluzione SantExpress",
+      "items": [
+        "Rispondere rapidamente alle richieste di trasporto",
+        "Organizzare il carico di lavoro",
+        "Ottimizzare i percorsi (navigazione integrata)",
+        "Soddisfare gli obblighi di condivisione",
+        "Semplificare le procedure amministrative (Fatturazione e Contabilità)",
+        "Accelerare gli incassi",
+        "Sistema di backup e reindirizzamento automatico in caso di guasto",
+        "Gestione automatizzata dei rifiuti e solleciti CPAM"
+      ]
+    },
+    "healthcare": {
+      "subtitle": "Per le strutture sanitarie",
+      "difficulties": {
+        "title": "Le Sfide",
+        "items": [
+          "Ridurre i tempi di attesa dei pazienti e aumentare il tasso di occupazione delle strutture sanitarie",
+          "Alleggerire il carico del personale nella ricerca di mezzi di trasporto",
+          "Ridurre il costo del trasporto sanitario: in 10 anni moltiplicato per 10",
+          "Soddisfare i pazienti",
+          "Decongestionare le strutture sanitarie",
+          "Incontrano difficoltà nel trovare un trasporto sanitario",
+          "Devono contattare più fornitori prima di trovarne uno disponibile",
+          "Difficoltà nell'organizzare la loro pianificazione",
+          "Attesa per il viaggio di ritorno"
+        ]
+      },
+      "solution": {
+        "title": "Soluzione SantExpress",
+        "items": [
+          "Liberare più rapidamente i letti e aumentare il tasso di occupazione delle strutture sanitarie",
+          "Armonizzare l'organizzazione delle prenotazioni",
+          "Ridurre il costo del trasporto sanitario ed evitare le frodi",
+          "Soddisfare il paziente",
+          "Alleggerire il bilancio della sicurezza sociale",
+          "Applicazione su Smartphone",
+          "Definire le loro esigenze: seduto, sdraiato, assistenza respiratoria",
+          "App aperta ai caregiver",
+          "Gestione dei documenti giustificativi per la fatturazione"
+        ]
+      }
+    }
+  },
+  "services": {
+    "title": "L'Ecosistema SantExpress",
+    "subtitle": "La vostra piattaforma end-to-end per il trasporto sanitario",
+    "transporter": {
+      "title": "Taxi convenzionato, VSL e Ambulanze",
+      "items": [
+        "Rispondere rapidamente alle richieste di trasporto",
+        "Organizzare il carico di lavoro",
+        "Ottimizzare i percorsi (navigazione integrata)",
+        "Tracciare i percorsi dei veicoli",
+        "Ridurre i viaggi a vuoto"
+      ]
+    },
+    "healthcare": {
+      "title": "Strutture Sanitarie",
+      "items": [
+        "Liberare i letti più rapidamente",
+        "Aumentare il tasso di occupazione",
+        "Soddisfare i pazienti",
+        "Ridurre il carico di lavoro del personale",
+        "Armonizzare l'organizzazione delle prenotazioni"
+      ]
+    },
+    "patients": {
+      "title": "Pazienti",
+      "items": [
+        "Richieste centralizzate app mobile",
+        "Tracciamento veicolo",
+        "Gestione ritardi",
+        "Invio documenti giustificativi",
+        "Navigazione integrata"
+      ]
+    },
+    "platform": {
+      "title": "Suite Logistica Completa",
+      "intelligent": {
+        "title": "Gestione Intelligente",
+        "items": [
+          "Gestione richieste assistita da IA",
+          "Pianificazione intelligente percorsi",
+          "Condivisione viaggi ottimizzata"
+        ]
+      },
+      "fleet": {
+        "title": "Gestione Flotte",
+        "items": [
+          "Monitoraggio tempo reale",
+          "Ottimizzazione programmi",
+          "Gestione autisti"
+        ]
+      },
+      "billing": {
+        "title": "Fatturazione e Amministrazione",
+        "items": [
+          "Teletrasmissione CPAM",
+          "Gestione documenti PMT",
+          "Monitoraggio pagamenti",
+          "Pre-Contabilità"
+        ]
+      }
+    }
+  },
+  "partners": {
+    "title": "Partner",
+    "subtitle": "Stretta collaborazione con tutti gli attori del settore",
+    "items": [
+      "Mutue",
+      "Assicurazione sanitaria",
+      "ARS",
+      "Strutture sanitarie",
+      "Trasportatori",
+      "Infermieri/e"
+    ]
+  },
+  "contact": {
+    "title": "Discutiamo delle Vostre Esigenze",
+    "subtitle": "Che siate trasportatori, strutture o pazienti, il nostro team è qui per voi.",
+    "form": {
+      "firstName": "Nome",
+      "lastName": "Cognome",
+      "email": "Email",
+      "userType": "Voi siete",
+      "userTypePlaceholder": "Selezionate il vostro profilo",
+      "userTypes": {
+        "transporter": "Trasportatore sanitario",
+        "healthcare": "Struttura sanitaria",
+        "patient": "Paziente",
+        "other": "Altro"
+      },
+      "message": "Messaggio",
+      "privacy": "Accetto la politica sulla privacy",
+      "submit": "Invia messaggio",
+      "success": "Messaggio inviato con successo!",
+      "error": "Errore nell'invio del messaggio"
+    },
+    "info": {
+      "email": "Email",
+      "address": "Indirizzo"
+    }
+  },
+  "footer": {
+    "description": "Soluzioni innovative per ottimizzare e rendere sicuro il trasporto dei pazienti in Francia. Collegamento di tutti gli attori del trasporto sanitario.",
+    "services": "Servizi",
+    "servicesList": [
+      "Trasporto sanitario",
+      "Gestione flotte",
+      "Fatturazione CPAM",
+      "Applicazione mobile"
+    ],
+    "contact": "Contatto",
+    "rights": "Tutti i diritti riservati."
+  }
+}

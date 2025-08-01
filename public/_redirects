@@ -1,0 +1,3 @@
+# Vercel/Netlify redirects for SPA
+/api/* /server/:splat 200
+/* /index.html 200

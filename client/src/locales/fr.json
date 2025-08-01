@@ -1,0 +1,227 @@
+{
+  "nav": {
+    "market": "Le Marché",
+    "actors": "Les Acteurs",
+    "services": "Services",
+    "vision": "Notre Vision",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Faciliter le transport sanitaire",
+    "titleHighlight": "en France",
+    "subtitle": "Solutions innovantes pour optimiser et sécuriser le transport des patients, en connectant tous les acteurs.",
+    "description": "En alléger le coût, en réduire la durée et simplifier les formalités administratives",
+    "cta1": "Notre Vision",
+    "cta2": "Contactez-nous"
+  },
+  "market": {
+    "title": "Le marché",
+    "description": "Selon un rapport publié par la DREES (service de statistique public) en 2023 sur l'année précédente, la consommation de transports sanitaires en ambulatoire s'est élevée à 6 milliards d'euros et a enregistré un rebond post crise sanitaire de +17,7% en 2021 et de +7,7% en 2022.",
+    "stats": {
+      "consumption": "Consommation annuelle",
+      "growth2021": "Rebond post-crise",
+      "growth2022": "Croissance continue"
+    },
+    "coverage": "Les dépenses sont prises en charge par l'Assurance Maladie à plus de 90%"
+  },
+  "actors": {
+    "title": "Les acteurs",
+    "subtitle": "Tous les professionnels mobilisés autour du transport sanitaire",
+    "transporter": {
+      "title": "Transporteur sanitaire",
+      "items": ["Taxis conventionnés", "Ambulances", "VSL (Véhicules Sanitaires Légers)"]
+    },
+    "healthcare": {
+      "title": "Établissements de santé",
+      "items": ["Hôpitaux", "Cliniques", "EPHAD"]
+    },
+    "state": {
+      "title": "ÉTAT - Assurance maladie - ARS",
+      "items": ["Réglementation", "Financement", "Contrôle qualité"]
+    },
+    "patients": {
+      "title": "Les Patients",
+      "items": ["Bénéficiaires", "Accompagnants", "Familles"]
+    }
+  },
+  "vision": {
+    "title": "Notre vision",
+    "dropdown": {
+      "label": "Choisir une section",
+      "transporters": "Pour les transporteurs sanitaires",
+      "healthcare": "Pour les établissements de santé"
+    },
+    "transporters": {
+      "subtitle": "Pour les transporteurs sanitaires"
+    },
+    "difficulties": {
+      "title": "Les difficultés",
+      "items": [
+        "Améliorer la rentabilité",
+        "Planification complexe des courses",
+        "Réduire les 10-20% des courses qui se font à vide",
+        "Répondre à l'obligation du partage des courses (transport assis)",
+        "En cas de panne, maintenir le transport pour le patient",
+        "Traitement des Rejets des Caisses",
+        "Démarches administratives complexes",
+        "Répondre aux exigences de la CPAM (Convention & Avenant n°11)"
+      ]
+    },
+    "solution": {
+      "title": "Solution SantExpress",
+      "items": [
+        "Répondre rapidement à une demande de transport",
+        "Organiser la charge de travail",
+        "Optimiser le trajet (navigation intégrée)",
+        "Répondre à l'obligation du partage des courses",
+        "Simplifier les formalités administratives (Facturation & Comptabilité)",
+        "Accélérer les encaissements",
+        "Système de backup et redirection automatique en cas de panne",
+        "Gestion automatisée des rejets et relances CPAM"
+      ]
+    },
+    "healthcare": {
+      "subtitle": "Pour les établissements de santé",
+      "difficulties": {
+        "title": "Les difficultés",
+        "items": [
+          "Diminuer le temps d'attente des patients et augmenter leur taux d'occupation des établissements de santé",
+          "Alléger la charge du personnel en quête de moyen de transport",
+          "Réduire le coût du transport sanitaire: en 10 ans coût multiplié par 10",
+          "Satisfaire les patients",
+          "Désengorger les établissements de santé",
+          "Rencontrent des difficultés pour trouver un transport sanitaire",
+          "Doivent contacter plusieurs acteurs avant d'en trouver un disponible",
+          "Difficultés pour organiser leur planning",
+          "Attente pour le trajet de retour"
+        ]
+      },
+      "solution": {
+        "title": "Solution SantExpress",
+        "items": [
+          "Libérer plus rapidement les lits et augmenter le taux d'occupation des établissement de santé",
+          "Harmoniser l'organisation de la réservation",
+          "Réduire le coût du transport sanitaire et Eviter la fraude",
+          "Satisfaire le patient",
+          "Alléger le budget de la sécurité sociale",
+          "Application sur SmartPhone",
+          "Définir leurs besoins: assis, allongé, assistance respiratoire",
+          "Appli ouverte aux aidants",
+          "Gestion des pièces justificatives pour la facturation"
+        ]
+      }
+    }
+  },
+  "services": {
+    "title": "L'éco Système SantExpress",
+    "subtitle": "Votre plateforme de bout en bout pour le transport sanitaire",
+    "transporter": {
+      "title": "Taxi conventionné, VSL & Ambulances",
+      "items": [
+        "Répondre rapidement à une demande de transport",
+        "Organiser la charge de travail",
+        "Optimiser le trajet (navigation intégrée)",
+        "Suivre le trajet des véhicules",
+        "Réduire les trajets à vide"
+      ]
+    },
+    "healthcare": {
+      "title": "Établissements de santé",
+      "items": [
+        "Libérer plus rapidement les lits",
+        "Augmenter le taux d'occupation",
+        "Satisfaire les patients",
+        "Réduire la charge de travail du personnel",
+        "Harmoniser l'organisation de la réservation"
+      ]
+    },
+    "patients": {
+      "title": "Patients",
+      "items": [
+        "Application Mobile demandes centralisées",
+        "Suivi du véhicule",
+        "Gestion des retards",
+        "Envoi de pièces justificatives",
+        "Navigation intégrée"
+      ]
+    },
+    "platform": {
+      "title": "Une Suite Logistique complète",
+      "intelligent": {
+        "title": "Gestion intelligente",
+        "items": [
+          "Gestion des demandes assistée par IA",
+          "Planification intelligente des trajets",
+          "Partage de trajets optimisé"
+        ]
+      },
+      "fleet": {
+        "title": "Gestion de Flottes",
+        "items": [
+          "Suivi temps réel",
+          "Optimisation des plannings",
+          "Gestion des chauffeurs"
+        ]
+      },
+      "billing": {
+        "title": "Facturation & Administration",
+        "items": [
+          "Télétransmission CPAM",
+          "Gestion documents PMT",
+          "Suivi des paiements",
+          "Pré-Comptabilité"
+        ]
+      }
+    }
+  },
+  "partners": {
+    "title": "Partenaires",
+    "subtitle": "Collaboration étroite avec tous les acteurs du secteur",
+    "items": [
+      "Mutuelles",
+      "Assurance maladie",
+      "ARS",
+      "Établissements de santé",
+      "Transporteurs",
+      "Infirmiers/ères"
+    ]
+  },
+  "contact": {
+    "title": "Discutons de vos besoins",
+    "subtitle": "Que vous soyez transporteur, établissement ou patient, notre équipe est là pour vous.",
+    "form": {
+      "firstName": "Prénom",
+      "lastName": "Nom",
+      "email": "Email",
+      "userType": "Vous êtes",
+      "userTypePlaceholder": "Sélectionnez votre profil",
+      "userTypes": {
+        "transporter": "Transporteur sanitaire",
+        "healthcare": "Établissement de santé",
+        "patient": "Patient",
+        "other": "Autre"
+      },
+      "message": "Message",
+      "privacy": "J'accepte la politique de confidentialité",
+      "submit": "Envoyer le message",
+      "success": "Message envoyé avec succès !",
+      "error": "Erreur lors de l'envoi du message"
+    },
+    "info": {
+      "email": "Email",
+      "address": "Adresse"
+    }
+  },
+  "footer": {
+    "description": "Solutions innovantes pour optimiser et sécuriser le transport des patients en France. Connectons tous les acteurs du transport sanitaire.",
+    "services": "Services",
+    "servicesList": [
+      "Transport sanitaire",
+      "Gestion de flotte",
+      "Facturation CPAM",
+      "Application mobile"
+    ],
+    "contact": "Contact",
+    "rights": "Tous droits réservés."
+  }
+}

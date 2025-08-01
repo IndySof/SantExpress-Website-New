@@ -1,0 +1,227 @@
+{
+  "nav": {
+    "market": "The Market",
+    "actors": "Stakeholders",
+    "services": "Services", 
+    "vision": "Our Vision",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Facilitating medical transport",
+    "titleHighlight": "in France",
+    "subtitle": "Innovative solutions to optimize and secure patient transport, connecting all stakeholders.",
+    "description": "Reduce costs, decrease duration and simplify administrative procedures",
+    "cta1": "Our Vision",
+    "cta2": "Contact Us"
+  },
+  "market": {
+    "title": "The Market",
+    "description": "According to a report published by DREES in 2023, outpatient medical transport consumption amounted to 6 billion euros",
+    "stats": {
+      "consumption": "Annual consumption",
+      "growth2021": "Post-crisis rebound",
+      "growth2022": "Continued growth"
+    },
+    "coverage": "Expenses are covered by Health Insurance at more than 90%"
+  },
+  "actors": {
+    "title": "The Stakeholders",
+    "subtitle": "All professionals mobilized around medical transport",
+    "transporter": {
+      "title": "Medical Transporter",
+      "items": ["Conventional taxis", "Ambulances", "VSL (Light Medical Vehicles)"]
+    },
+    "healthcare": {
+      "title": "Healthcare Facilities",
+      "items": ["Hospitals", "Clinics", "Nursing homes"]
+    },
+    "state": {
+      "title": "STATE - Health Insurance - ARS",
+      "items": ["Regulation", "Funding", "Quality control"]
+    },
+    "patients": {
+      "title": "Patients",
+      "items": ["Beneficiaries", "Companions", "Families"]
+    }
+  },
+  "vision": {
+    "title": "Our Vision",
+    "dropdown": {
+      "label": "Choose a section",
+      "transporters": "For medical transporters",
+      "healthcare": "For healthcare facilities"
+    },
+    "transporters": {
+      "subtitle": "For medical transporters"
+    },
+    "difficulties": {
+      "title": "The Challenges",
+      "items": [
+        "Improve profitability",
+        "Complex trip planning",
+        "Reduce 10-20% of empty trips",
+        "Meet ride-sharing obligations (seated transport)",
+        "In case of breakdown, maintain transport for the patient",
+        "Processing Insurance Fund Rejections",
+        "Complex administrative procedures",
+        "Meet CPAM requirements (Convention & Amendment n°11)"
+      ]
+    },
+    "solution": {
+      "title": "SantExpress Solution",
+      "items": [
+        "Respond quickly to transport requests",
+        "Organize workload",
+        "Optimize routes (integrated navigation)",
+        "Meet ride-sharing obligations",
+        "Simplify administrative procedures (Billing & Accounting)",
+        "Accelerate collections",
+        "Backup system and automatic redirection in case of breakdown",
+        "Automated rejection management and CPAM follow-ups"
+      ]
+    },
+    "healthcare": {
+      "subtitle": "For healthcare facilities",
+      "difficulties": {
+        "title": "The Challenges",
+        "items": [
+          "Reduce patient waiting time and increase facility occupancy rates",
+          "Lighten staff workload in searching for transport",
+          "Reduce medical transport costs: multiplied by 10 in 10 years",
+          "Satisfy patients",
+          "Decongest healthcare facilities",
+          "Face difficulties finding medical transport",
+          "Must contact multiple providers before finding an available one",
+          "Difficulties organizing their schedule",
+          "Waiting for return journey"
+        ]
+      },
+      "solution": {
+        "title": "SantExpress Solution",
+        "items": [
+          "Free up beds faster and increase facility occupancy rates",
+          "Harmonize reservation organization",
+          "Reduce medical transport costs and prevent fraud",
+          "Satisfy patients",
+          "Lighten social security budget",
+          "Smartphone application",
+          "Define their needs: seated, lying, respiratory assistance",
+          "App open to caregivers",
+          "Management of supporting documents for billing"
+        ]
+      }
+    }
+  },
+  "services": {
+    "title": "The SantExpress Ecosystem",
+    "subtitle": "Your end-to-end platform for medical transport",
+    "transporter": {
+      "title": "Conventional taxi, VSL & Ambulances",
+      "items": [
+        "Respond quickly to transport requests",
+        "Organize workload",
+        "Optimize routes (integrated navigation)",
+        "Track vehicle routes",
+        "Reduce empty trips"
+      ]
+    },
+    "healthcare": {
+      "title": "Healthcare Facilities",
+      "items": [
+        "Free up beds faster",
+        "Increase occupancy rate",
+        "Satisfy patients",
+        "Reduce staff workload",
+        "Harmonize reservation organization"
+      ]
+    },
+    "patients": {
+      "title": "Patients",
+      "items": [
+        "Centralized mobile app requests",
+        "Vehicle tracking",
+        "Delay management",
+        "Document submission",
+        "Integrated navigation"
+      ]
+    },
+    "platform": {
+      "title": "Complete Logistics Suite",
+      "intelligent": {
+        "title": "Intelligent Management",
+        "items": [
+          "AI-assisted request management",
+          "Intelligent route planning",
+          "Optimized trip sharing"
+        ]
+      },
+      "fleet": {
+        "title": "Fleet Management",
+        "items": [
+          "Real-time tracking",
+          "Schedule optimization",
+          "Driver management"
+        ]
+      },
+      "billing": {
+        "title": "Billing & Administration",
+        "items": [
+          "CPAM teletransmission",
+          "PMT document management",
+          "Payment tracking",
+          "Pre-Accounting"
+        ]
+      }
+    }
+  },
+  "partners": {
+    "title": "Partners",
+    "subtitle": "Close collaboration with all sector stakeholders",
+    "items": [
+      "Mutual insurance",
+      "Health insurance",
+      "ARS",
+      "Healthcare facilities",
+      "Transporters",
+      "Nurses"
+    ]
+  },
+  "contact": {
+    "title": "Let's Discuss Your Needs",
+    "subtitle": "Whether you're a transporter, facility, or patient, our team is here for you.",
+    "form": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "userType": "You are",
+      "userTypePlaceholder": "Select your profile",
+      "userTypes": {
+        "transporter": "Medical transporter",
+        "healthcare": "Healthcare facility",
+        "patient": "Patient",
+        "other": "Other"
+      },
+      "message": "Message",
+      "privacy": "I accept the privacy policy",
+      "submit": "Send message",
+      "success": "Message sent successfully!",
+      "error": "Error sending message"
+    },
+    "info": {
+      "email": "Email",
+      "address": "Address"
+    }
+  },
+  "footer": {
+    "description": "Innovative solutions to optimize and secure patient transport in France. Connecting all medical transport stakeholders.",
+    "services": "Services",
+    "servicesList": [
+      "Medical transport",
+      "Fleet management",
+      "CPAM billing",
+      "Mobile application"
+    ],
+    "contact": "Contact",
+    "rights": "All rights reserved."
+  }
+}
