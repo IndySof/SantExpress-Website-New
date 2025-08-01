@@ -16,12 +16,12 @@ export function Contact() {
   const { t, language } = useTranslation();
   const { toast } = useToast();
 
-  // Pre-load translations for select options
+  // Pre-load translations for select options with fallbacks
   const userTypeOptions = {
-    transporter: t("contact.form.userTypes.transporter"),
-    healthcare: t("contact.form.userTypes.healthcare"),
-    patient: t("contact.form.userTypes.patient"),
-    other: t("contact.form.userTypes.other")
+    transporter: t("contact.form.userTypes.transporter") || "Transporteur sanitaire",
+    healthcare: t("contact.form.userTypes.healthcare") || "Établissement de santé",
+    patient: t("contact.form.userTypes.patient") || "Patient",
+    other: t("contact.form.userTypes.other") || "Autre"
   };
 
   const form = useForm<InsertContact>({
@@ -137,9 +137,9 @@ export function Contact() {
                     name="firstName"
                     render={({ field }) => (
                       <FormItem>
-                        <FormLabel>{t("contact.form.firstName")}</FormLabel>
+                        <FormLabel>{t("contact.form.firstName") || "Prénom"}</FormLabel>
                         <FormControl>
-                          <Input {...field} />
+                          <Input {...field} placeholder={t("contact.form.firstName") || "Prénom"} />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -150,9 +150,9 @@ export function Contact() {
                     name="lastName"
                     render={({ field }) => (
                       <FormItem>
-                        <FormLabel>{t("contact.form.lastName")}</FormLabel>
+                        <FormLabel>{t("contact.form.lastName") || "Nom"}</FormLabel>
                         <FormControl>
-                          <Input {...field} />
+                          <Input {...field} placeholder={t("contact.form.lastName") || "Nom"} />
                         </FormControl>
                         <FormMessage />
                       </FormItem>
@@ -165,9 +165,9 @@ export function Contact() {
                   name="email"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>{t("contact.form.email")}</FormLabel>
+                      <FormLabel>{t("contact.form.email") || "Email"}</FormLabel>
                       <FormControl>
-                        <Input type="email" {...field} />
+                        <Input type="email" {...field} placeholder={t("contact.form.email") || "Email"} />
                       </FormControl>
                       <FormMessage />
                     </FormItem>
@@ -179,11 +179,11 @@ export function Contact() {
                   name="userType"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>{t("contact.form.userType")}</FormLabel>
+                      <FormLabel>{t("contact.form.userType") || "Vous êtes"}</FormLabel>
                       <Select onValueChange={field.onChange} value={field.value}>
                         <FormControl>
                           <SelectTrigger>
-                            <SelectValue placeholder={t("contact.form.userTypePlaceholder")} />
+                            <SelectValue placeholder={t("contact.form.userTypePlaceholder") || "Sélectionnez votre profil"} />
                           </SelectTrigger>
                         </FormControl>
                         <SelectContent>
@@ -203,9 +203,9 @@ export function Contact() {
                   name="message"
                   render={({ field }) => (
                     <FormItem>
-                      <FormLabel>{t("contact.form.message")}</FormLabel>
+                      <FormLabel>{t("contact.form.message") || "Message"}</FormLabel>
                       <FormControl>
-                        <Textarea rows={4} {...field} />
+                        <Textarea rows={4} {...field} placeholder={t(""} />
                       </FormControl>
                       <FormMessage />
                     </FormItem>
